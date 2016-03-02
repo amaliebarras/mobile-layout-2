@@ -1,22 +1,61 @@
 nav {
 	background-color: #0B6CA5;
-	height: 5em;
+	height: 3em;
+}
+
+.nav-logo {
+	height: 2em; 
+	width: 2em;
+	background-color: #ffffff;
+}
+
+.nav-wordpress {
+	height: 2em; 
+	width: 6em;
+	background-color: #ffffff;
+}
+
+.nav-login {
+	height: 4em; 
+	width: 8em;
+	background-color: #ffffff;
+	margin: 0 0 0 0;
+	float: right;
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: -1.5em 0 0 0;
+}
+
+li {
+    float: left;
+}
+
+a.nav-logo {
+    display: block;
+    background-color: #dddddd;
+}
+
+a.wordpress {
+    display: block;
+    background-color: #dddddd;
 }
 
 .hero {
 	background-color: #252F3E;
 	height: 61em;
-	margin: -1.5em 0 0 0;
 	padding-top: 10em;
 }
 
 h1 {
 	font-family: arial;
-	width: 20em;
 	color: #FFFFFF;
 	font-weight: normal;
 	text-align: center;
-	margin: auto;
+	margin: auto 3em;
 }
 
 h4 {
@@ -53,6 +92,20 @@ h4 {
 	width: 20em;
 	margin: 2em auto 2em auto;
 	background-color: #ffffff;
+}
+
+.hero-title-icon {
+	height: 1em;
+	width: 2.5em;
+	background-color: #4E5A6C;
+	float: left;
+}
+
+.hero-title-text {
+	height: 1em;
+	width: 2.5em;
+	background-color: #4E5A6C;
+	float: right;
 }
 
 .description-1 {
